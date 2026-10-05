@@ -1,0 +1,44 @@
+{
+  "seedStart": 5001,
+  "seedEnd": 5100,
+  "compliance": 0.88,
+  "roadTypes": [
+    "multilane",
+    "divided",
+    "junction"
+  ],
+  "densityByRoad": {
+    "multilane": [
+      "low",
+      "med",
+      "high"
+    ],
+    "divided": [
+      "high"
+    ],
+    "junction": [
+      "high"
+    ]
+  },
+  "policies": {
+    "baseline": {
+      "mode": "baseline",
+      "policy": "placeholder"
+    },
+    "clearpath": {
+      "mode": "clearpath",
+      "policy": "hybrid",
+      "movePolicy": "placeholder",
+      "corridorPolicy": "ml",
+      "etaPolicy": "ml"
+    }
+  },
+  "policyNames": {
+    "baseline": "Baseline (no CLEARPATH alerts)",
+    "clearpath": "CLEARPATH hybrid (placeholder move-side + ML corridor/ETA)"
+  },
+  "unpolishedRoadTypes": [
+    "divided",
+    "junction"
+  ]
+}

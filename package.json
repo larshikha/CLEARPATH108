@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "scripts": {
+    "phase1:compare": "node web/tools/compare-phase1.mjs",
+    "phase1:review": "node web/tools/review-phase1.mjs",
+    "phase4:compare": "node web/tools/compare-policy-phase4.mjs",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "phase5:stop-diagnostics": "node web/tools/phase5-stop-diagnostics.mjs",
+    "phase5:freeze": "node web/tools/freeze-phase5-policy.mjs",
+    "phase5:benchmark": "node web/tools/phase5-benchmark.mjs",
+    "phase5:generate": "node web/tools/generate_dataset.mjs",
+    "production:freeze": "node web/tools/freeze-production-policy.mjs",
+    "production:benchmark": "node web/tools/production-benchmark.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {}
+}

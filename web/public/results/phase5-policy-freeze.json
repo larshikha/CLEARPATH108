@@ -1,0 +1,24 @@
+{
+  "createdAt": "2026-10-04T17:14:58.721Z",
+  "benchmarkSeeds": "4001-4100",
+  "density": "high",
+  "roadType": "multilane",
+  "compliance": 0.88,
+  "policies": [
+    "baseline",
+    "placeholder",
+    "ml",
+    "placeholder-move+ml-corridor"
+  ],
+  "hashes": {
+    "web/src/sim/engine.js": "563e020d12a0fd041963cf18dc9b9ec8d5181c4d7ce9299e96b1c7fd6e161ff8",
+    "web/src/sim/roads.js": "92256d3e648d6578cc6cc65eaae5f711f56cc0ce255dc5dd0659ae14876304b6",
+    "web/src/sim/features.js": "8712467243d964f200114e2ddb93585fd35d89238b2533921494308d73905397",
+    "web/tools/phase5-benchmark.mjs": "5df4ab3f93d87d53ce38ed8d66c017d8b67ca481d17a0035a29b64efb21778e2",
+    "web/src/sim/forest.js": "dcf9db5c9132a84bda5db41a62d3a8fd6dd141901cc52350c1b15726a2743a09",
+    "web/src/sim/models.js": "f99af0b7a5985c321a8d06a63f93bb7193b2e82ba760233c381b36e0c684e872",
+    "web/public/models/move_side.json": "175ea7c07e0f911adc3dbcc3befe3cfc4202385df0fd27d8645600a76d1e45a0",
+    "web/public/models/corridor.json": "ea020798af9dffa7fb9221cd71c257d15e3f78bc70e475b315924a39f2fca48d",
+    "web/public/models/eta.json": "2da46a0df8d2865cb0f454fd1e255bae1ce9e17528da3fadba8049195f722c16"
+  }
+}

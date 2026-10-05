@@ -1,0 +1,48 @@
+{
+  "move_side": {
+    "decision_stop_share": 0.0048350920581866725,
+    "stop_class_dropped": true,
+    "classifier_training_rows": 722830,
+    "decision_accuracy": 0.9260667159624658,
+    "decision_majority_action": "NONE",
+    "decision_majority_accuracy": 0.4462658432185297,
+    "decision_accuracy_by_road": {
+      "multilane": 0.9242757739278614,
+      "divided": 0.9265020658071581,
+      "junction": 0.9272576157265204
+    },
+    "other_accuracy": 1.0,
+    "oncoming_accuracy": 1.0,
+    "junction_cross_accuracy": null,
+    "feature_importances": {
+      "free_left": 0.22349541744361381,
+      "same_lane": 0.2018253542980304,
+      "lane_offset": 0.14159318854862418,
+      "free_right": 0.1259163273826604,
+      "amb_speed": 0.1144613121993768,
+      "lane_idx": 0.06910863250107674,
+      "dist_to_amb": 0.06124777627658571,
+      "veh_speed": 0.02390041937772349,
+      "density": 0.013328930310631214,
+      "has_median": 0.006142540345577735,
+      "junction_dist": 0.005243296112966976,
+      "n_lanes": 0.005133418051506585,
+      "is_oneway": 0.004885075547273892,
+      "oncoming": 0.003718311604352044,
+      "has_shoulder": 0.0
+    },
+    "classes": [
+      "LEFT",
+      "NONE",
+      "RIGHT"
+    ]
+  },
+  "corridor": {
+    "mae": 40.7466620357402,
+    "r2": 0.6473575403265837
+  },
+  "eta": {
+    "mae": 14.564989392102296,
+    "r2": 0.7823169570860055
+  }
+}

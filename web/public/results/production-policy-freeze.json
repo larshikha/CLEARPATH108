@@ -1,0 +1,62 @@
+{
+  "createdAt": "2026-10-05T17:21:05.464Z",
+  "policy": "hybrid",
+  "policyNames": {
+    "baseline": "Baseline (no CLEARPATH alerts)",
+    "clearpath": "CLEARPATH hybrid (placeholder move-side + ML corridor/ETA)"
+  },
+  "configFile": "web/tools/production-benchmark-config.json",
+  "config": {
+    "seedStart": 5001,
+    "seedEnd": 5100,
+    "compliance": 0.88,
+    "roadTypes": [
+      "multilane",
+      "divided",
+      "junction"
+    ],
+    "densityByRoad": {
+      "multilane": [
+        "low",
+        "med",
+        "high"
+      ],
+      "divided": [
+        "high"
+      ],
+      "junction": [
+        "high"
+      ]
+    },
+    "policies": {
+      "baseline": {
+        "mode": "baseline",
+        "policy": "placeholder"
+      },
+      "clearpath": {
+        "mode": "clearpath",
+        "policy": "hybrid",
+        "movePolicy": "placeholder",
+        "corridorPolicy": "ml",
+        "etaPolicy": "ml"
+      }
+    },
+    "policyNames": {
+      "baseline": "Baseline (no CLEARPATH alerts)",
+      "clearpath": "CLEARPATH hybrid (placeholder move-side + ML corridor/ETA)"
+    },
+    "unpolishedRoadTypes": [
+      "divided",
+      "junction"
+    ]
+  },
+  "hashes": {
+    "web/src/sim/engine.js": "f388b1f623ed332c441ae4419de3eff4db586c9a2b546fb1d962c7778c89f253",
+    "web/src/sim/roads.js": "9b848f54315230fccc22e20221a547bd77ecfbe6b3e39baa18bb0ad83f005964",
+    "web/src/sim/features.js": "20b81f6814baae84ab9a1a527fbeabea05b12d012ebc736fdeb8dabf3777e969",
+    "web/public/models/corridor.json": "ea020798af9dffa7fb9221cd71c257d15e3f78bc70e475b315924a39f2fca48d",
+    "web/public/models/eta.json": "2da46a0df8d2865cb0f454fd1e255bae1ce9e17528da3fadba8049195f722c16",
+    "web/public/models/move_side.json": "175ea7c07e0f911adc3dbcc3befe3cfc4202385df0fd27d8645600a76d1e45a0",
+    "web/tools/production-benchmark-config.json": "f2ac19428450e00fdaa02d18a7d3a8c7046721b9f860eb74ba54f934d67ee232"
+  }
+}
